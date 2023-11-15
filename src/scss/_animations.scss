@@ -1,0 +1,47 @@
+/*ANIMACIONES*/
+.index__animation {
+    @include animation;
+    width: 17ch;
+    animation: typing 4s steps(24), blink .8s infinite step-end alternate;
+    animation-timing-function: ease-in;
+    overflow: hidden;
+}
+
+.lunch__animation {
+    @include animation;
+    width: 12ch;
+    animation: typing 3s steps(17), blink .8s infinite step-end alternate;
+    @include animation-compliment
+}
+
+.rot__animation {
+    @include animation;
+    width: 7ch;
+    animation: typing 3s steps(10), blink .8s infinite step-end alternate;
+    @include animation-compliment
+}
+
+.sand__animation {
+    @include animation;
+    width: 10ch;
+    animation: typing 3s steps(12), blink .8s infinite step-end alternate;
+    @include animation-compliment
+}
+
+.contact__animation {
+    @include animation;
+    width: 7ch;
+    animation: typing 2s steps(10), blink .8s infinite step-end alternate;
+    @include animation-compliment
+}
+
+
+    @keyframes typing {
+        from {width: 0}
+    }
+        
+    @keyframes blink {
+        50% { border-color: transparent}
+    }
+
+
