@@ -1,11 +1,10 @@
-// import
-// import
-// import
-// import
-// import
-// import
-// import
-
+import Surtidos from '../../Assets/Images/sandwiches-surtidos.jpg'
+import Palitos from '../../Assets/Images/palitos-de-queso.jpg'
+import Pastel from '../../Assets/Images/pastel-de-dulce-de-leche.jpg'
+import Bocata from '../../Assets/Images/bocata.jpg'
+import Pizzetas from '../../Assets/Images/pizzetas-con-gustos.jpg'
+import PastelCarne from '../../Assets/Images/pastel-de-carne.jpg'
+import EnsaladaFrutas from '../../Assets/Images/ensalada-de-frutas.jpg'
 
 const HomePage = () => {
     return (
@@ -24,25 +23,25 @@ const HomePage = () => {
                 <h2 class="h2center text-center">Nuestras especialidades</h2>
                 <div class="row index-images_div">
                     <div class="col-xl-3 col-md-6 col-sm-12 text-center">
-                        <img class="indeximages img-fluid" src="images/sandwiches-surtidos.jpg " alt="Sandwiches surtidos"/>
+                        <img class="indeximages img-fluid" src={Surtidos} alt="Sandwiches surtidos"/>
                     </div>
                     <div class="col-xl-3 col-md-6 col-sm-12 text-center">
-                        <img class="indeximages img-fluid" src="images/palitos-de-queso.jpg" alt="Palitos de queso"/>
+                        <img class="indeximages img-fluid" src={Palitos} alt="Palitos de queso"/>
                     </div>
                     <div class="col-xl-3 col-md-6 col-sm-12 text-center">
-                        <img class="indeximages img-fluid" src="images/pastel-de-dulce-de-leche.jpg" alt="Pastel de dulce de leche"/>
+                        <img class="indeximages img-fluid" src={Pastel} alt="Pastel de dulce de leche"/>
                     </div>
                     <div class="col-xl-3 col-md-6 col-sm-12 text-center">
-                        <img class="indeximages img-fluid" src="images/bocata.jpg" alt="Bocata"/>
+                        <img class="indeximages img-fluid" src={Bocata} alt="Bocata"/>
                     </div>
                     <div class="col-xl-4 col-md-6 col-sm-12 text-center">
-                        <img class="indeximages img-fluid" src="images/pizzetas-con-gustos.jpg" alt="Pizzetas con gustos"/>
+                        <img class="indeximages img-fluid" src={Pizzetas} alt="Pizzetas con gustos"/>
                     </div>
                     <div class="col-xl-4 col-md-6 col-sm-12 text-center">
-                        <img class="indeximages img-fluid" src="images/pastel-de-carne.jpg" alt="Pastel de carne"/>
+                        <img class="indeximages img-fluid" src={PastelCarne} alt="Pastel de carne"/>
                     </div>
                     <div class="col-xl-4 col-md-12 col-sm-12 text-center">
-                        <img class="indeximages img-fluid" src="images/ensalada-de-frutas.jpg" alt="Ensalada de frutas"/>
+                        <img class="indeximages img-fluid" src={EnsaladaFrutas} alt="Ensalada de frutas"/>
                     </div>
                 </div>
             </section>
